@@ -7,6 +7,6 @@ However,
 - The codes have not been completed yet;
 - The materials for the theme have not been collected yet;
 
-It has been taking for several months even for half or a year to develop, with spare time very little.
+It has been taking for several months even for half or a year to develop, with spare time very little.<br/>
 However,<br/>
 Soft fire makes sweet malt.
