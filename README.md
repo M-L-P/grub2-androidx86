@@ -1,7 +1,7 @@
 # grub2-Android-x86
 It is used to boot all kinds of Android-x86. Maybe it supports secure boot.
 
-## Wait Patiently
+## Coming Late
 Many advanced features have been designed.<br/>
 However,
 - The codes have not been completed yet;
