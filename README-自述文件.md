@@ -95,7 +95,7 @@
 
 - 挂载 .iso 文件；
 ##### 如果你希望尺寸更小并且只读，
-- 复制虚拟分区文件 `system.sfs` 或 `system.efs`，
+- 复制虚拟分区文件 `iso: /system.sfs` 或 `iso: /system.efs`，
 - - 粘贴到 `ext4|f2fs: /Android-x86` ，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
 - - 粘贴到 `ext4|f2fs: /BlissOS` ，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
 - - 粘贴到 `ext4|f2fs: /PrimeOS` ，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；

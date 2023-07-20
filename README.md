@@ -95,7 +95,7 @@ Physical Storage|Character|Logical Storage
 
 - Mount the .iso file;
 ##### If you want smaller size and Read-Only,
-- Copy the virtual partition `system.sfs` or `system.efs`,
+- Copy the virtual partition `iso: /system.sfs` or `iso: /system.efs`,
 - - and paste into `ext4|f2fs: /Android-x86` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
 - - and paste into into `ext4|f2fs: /BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
 - - and paste into `ext4|f2fs: /PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
