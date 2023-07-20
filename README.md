@@ -14,7 +14,8 @@
 
 It is used to boot all kinds of Android-x86, which can set Kernel Command Line Parameters. Maybe it supports secure boot.
 #### File Tree
-<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/grub2-androidx86/grub2-androidx86.png">
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/grub2-androidx86/EFI.png"><br/>
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/grub2-androidx86/SRC.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️Preview👀
@@ -40,8 +41,8 @@ It is used to boot all kinds of Android-x86, which can set Kernel Command Line P
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
 - Download the .iso file,<br>
-[AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)
-[BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)
+[AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)<br/>
+[BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)<br/>
 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)
 - Download from releases,<br>
 [Releases](https://github.com/M-L-P/grub2-androidx86/releases)
@@ -148,5 +149,6 @@ Tell your friends that you have got a good stuff.
 - Terminal box is adapted from the graphical interface of [Termux](https://github.com/termux/termux-app);
 - Many things about Kernel Command Line Parameters are copied from [BlissOS Docs](https://docs.blissos.org/configuration/configuration-through-command-line-parameters/);
 - [initrd-magisk](https://github.com/HuskyDG/initrd-magisk) and [Magisk Delta](https://github.com/HuskyDG/magisk-files) of [shìwēi nguyen](https://github.com/HuskyDG);
+- Some codes are adapted from the grub2 of their .iso files;
 - The .gif cartoon are taken by using Hyper-V and [Screen2Gif](https://github.com/NickeManarin/ScreenToGif);
 ...
