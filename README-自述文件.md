@@ -149,6 +149,7 @@
 - 窗口的边角料是参考 [BlissOS](https://blissos.org/) 的图形界面的；
 - Terminal box 是改编自 [Termux](https://github.com/termux/termux-app) 的图形界面的；
 - 许多内核命令行参数的信息是摘抄自 [BlissOS Docs](https://docs.blissos.org/configuration/configuration-through-command-line-parameters/)；
+- Grub tune 摘抄自 [BreadMaker](https://github.com/BreadMaker) 的 [grub-tune-tester](https://breadmaker.github.io/grub-tune-tester/)；
 - [initrd-magisk](https://github.com/HuskyDG/initrd-magisk) 和 [Magisk Delta](https://github.com/HuskyDG/magisk-files) 来自 [阮shìwēi](https://github.com/HuskyDG)；
 - 一些代码来自 .iso 文件的 grub2 配置；
 - .gif 的动态截图是使用 [Screen2Gif](https://github.com/NickeManarin/ScreenToGif) 对 hyper-V 截取的；
