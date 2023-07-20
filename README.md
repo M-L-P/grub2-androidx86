@@ -122,9 +122,9 @@ Physical Storage|Character|Logical Storage
 - - and paste into `/[#ESP]/EFI/androidx86/grub/boot_BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
 - - and paste into `/[#ESP]/EFI/androidx86/grub/boot_PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 - Copy the `iso: /initrd.img`,
-- - and paste into `/EFI/androidx86/grub/boot_AOSP` and `ext4|f2fs: /Android-x86/boot` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- - and paste into `/EFI/androidx86/grub/boot_BlissOS` and `ext4|f2fs: /BlissOS/boot` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- - and paste into `/EFI/androidx86/grub/boot_PrimeOS` and `ext4|f2fs: /PrimeOS/boot` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- - and paste into `/[#ESP]/EFI/androidx86/grub/boot_AOSP` and `ext4|f2fs: /Android-x86/boot` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- - and paste into `/[#ESP]/EFI/androidx86/grub/boot_BlissOS` and `ext4|f2fs: /BlissOS/boot` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- - and paste into `/[#ESP]/EFI/androidx86/grub/boot_PrimeOS` and `ext4|f2fs: /PrimeOS/boot` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 
 </details>
 
