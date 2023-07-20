@@ -12,7 +12,7 @@
 
 <h1 align="center">grub2-androidx86</h1>
 
-It is used to boot all kinds of Android-x86, which can set Kernel Command Line Parameters. Maybe it supports secure boot.
+It is used to multiboot all kinds of Android-x86, which can set Kernel Command Line Parameters. Maybe it supports secure boot.
 #### File Tree
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/grub2-androidx86/EFI.png"><br/>
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/grub2-androidx86/SRC.png">
@@ -76,7 +76,7 @@ Physical Storage|Character|Logical Storage
 
 </details>
 
-#### Copy SRC
+#### Copy `SRC`
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
@@ -96,21 +96,22 @@ Physical Storage|Character|Logical Storage
 - Mount the .iso file;
 ##### If you want smaller size and Read-Only,
 - Copy the virtual partition `system.sfs` or `system.efs`,
-- - Copy the file `iso: /system.sfs` into `ext4|f2fs: /Android-x86` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- - Copy the file `iso: /system.sfs` or `iso: /system.efs` into `ext4|f2fs: /BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- - Copy the file `iso: /system.sfs` into `ext4|f2fs: /PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- - and paste into `ext4|f2fs: /Android-x86` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- - and paste into into `ext4|f2fs: /BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- - and paste into `ext4|f2fs: /PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 ##### If you want it writable,
-- Mount `iso: /system.sfs` or `iso: /system.efs` and find `system.img` in it.
-- - - `sudo {package manager} install erofs-utils` in order to support erofs.
-- - Copy the file `system.img` into `ext4|f2fs: /Android-x86` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- - Copy the file `system.img` into `ext4|f2fs: /BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- - Copy the file `system.img` into `ext4|f2fs: /PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- Mount `iso: /system.sfs` or `iso: /system.efs` and find `system.img` in it,
+- - - `sudo {package manager} install erofs-utils` in order to support erofs,
+- Copy the virtual partition `system.img`,
+- - and paste into `ext4|f2fs: /Android-x86` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- - and paste into `ext4|f2fs: /BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- - and paste into `ext4|f2fs: /PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 
 </details>
 
 ### Copy into ESP
 
-#### Copy`kernel` & `initrd.img`
+#### Copy `kernel` & `initrd.img`
  
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
@@ -135,7 +136,7 @@ Physical Storage|Character|Logical Storage
 - It might support secure boot if you use `grub.cer`(Secure Boot Certificate), which is what I haven't tried,
 - - `grub.cer`(Secure Boot Certificate) is from [Ventoy](https://github.com/ventoy/Ventoy);
 ### Cannot boot
-- You should cover `kernel`, `initrd.img`and `system` once you get a newer .iso file.
+- You should cover `kernel`, `initrd.img`and `system` by your hands once you get a newer .iso file.
 
 ## ⭐Star🌟
 If you like it and are looking forward to the coming update, you can star it.💫<br/>
