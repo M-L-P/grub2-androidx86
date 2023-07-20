@@ -1,0 +1,18 @@
+desktop-image: "part1.png"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+title-text: ""
+
++ progress_bar {
+	id = "__timeout__"
+	left = 5%
+	top = 90%
+	height = 20
+	width = 90%
+	font = "Microsoft YaHei Regular 24"
+	text_color = "#000000"
+	fg_color = "#32DE84"
+	bg_color = "#ffffff"
+	border_color = "#ffffff"
+	text = "https://github.com/M-L-P/grub2-androidx86"
+}

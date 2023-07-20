@@ -1,0 +1,37 @@
+desktop-image: "../background/liveCD.jpg"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "left"
+title-text: ""
+terminal-box: "../theme-settings/termux/termux_*.png"
+terminal-left: "100%-500"
+terminal-top: "42%"
+terminal-width: "480"
+terminal-height: "49%"
+terminal-border: "0"
+terminal-font: "Terminus Regular 12"
+
++ boot_menu {
+	left = 0
+	width = 500
+	top = 93%-500
+	height = 500
+
+	menu_pixmap_style = "boot_menu_*.png"
+
+	item_font = "DejaVu Sans Regular 14"
+	item_color = "#888888"
+	item_height = 38
+	item_icon_space = 20
+	item_padding = 0
+	item_spacing = 0
+
+	selected_item_font = "DejaVu Sans Regular 14"
+	selected_item_color= "#eff0f1"
+	selected_item_pixmap_style = "select_*.png"
+
+	icon_height = 38
+	icon_width = 38
+
+	scrollbar = false
+}
+

@@ -1,0 +1,1 @@
+device_mount_data || mount -t tmpfs tmpfs data
