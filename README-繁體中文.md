@@ -118,13 +118,13 @@
 
 - 掛載 .iso 文件；
 - 復製文件 `iso: /kernel`,
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_AOSP` ，適用於 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_BlissOS` ，適用於 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_PrimeOS` ，適用於 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_AOSP` ，適用於 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_BlissOS` ，適用於 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_PrimeOS` ，適用於 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
 - 復製文件 `iso: /initrd.img`,
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_AOSP` 和 `ext4|f2fs: /Android-x86/boot` ，適用於 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_BlissOS` 和 `ext4|f2fs: /BlissOS/boot` ，適用於 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
-- - 粘貼到 `/[#ESP]/EFI/androidx86/grub/boot_PrimeOS` 和 `ext4|f2fs: /PrimeOS/boot` ，適用於 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_AOSP` 和 `ext4|f2fs: /Android-x86/boot` ，適用於 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_BlissOS` 和 `ext4|f2fs: /BlissOS/boot` ，適用於 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
+- - 粘貼到 `/[#ESP]/EFI/androidx86/boot_PrimeOS` 和 `ext4|f2fs: /PrimeOS/boot` ，適用於 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
 
 </details>
 
