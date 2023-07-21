@@ -152,5 +152,5 @@ Tell your friends that you have got a good stuff.
 - Grub tune is copied from [grub-tune-tester](https://breadmaker.github.io/grub-tune-tester/) of [BreadMaker](https://github.com/BreadMaker);
 - [initrd-magisk](https://github.com/HuskyDG/initrd-magisk) and [Magisk Delta](https://github.com/HuskyDG/magisk-files) of [shìwēi nguyen](https://github.com/HuskyDG);
 - Some codes are adapted from the grub2 of their .iso files;
-- The .gif cartoon are taken by using Hyper-V and [Screen2Gif](https://github.com/NickeManarin/ScreenToGif);
+- The .gif cartoon is taken by using Hyper-V and [Screen2Gif](https://github.com/NickeManarin/ScreenToGif);
 - ...
