@@ -1,0 +1,16 @@
+desktop-image: "part0.png"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+title-text: ""
+
++ progress_bar {
+	id = "__timeout__"
+	left = 0%
+	top = 99%
+	height = 20
+	width = 100%
+	font = "Microsoft YaHei Regular 24"
+	text_color = "#000000"
+	fg_color = "#ffffff"
+	bg_color = "#000000"
+}

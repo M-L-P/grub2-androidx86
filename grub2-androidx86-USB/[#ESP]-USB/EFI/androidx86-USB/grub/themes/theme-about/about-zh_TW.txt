@@ -1,0 +1,33 @@
+desktop-image: "../background/desktop.jpg"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+title-text: ""
+terminal-box: "../theme-settings/termux/termux_*.png"
+terminal-left: "100%-500"
+terminal-top: "42%"
+terminal-width: "480"
+terminal-height: "49%"
+terminal-border: "0"
+terminal-font: "Terminus Regular 12"
+
++ boot_menu {
+	left = 10%
+	width = 730
+	top = 10%
+	height = 600
+
+	menu_pixmap_style = "about-zh_TW/about_*.png"
+
+	item_font = "Microsoft YaHei Regular 24"
+	item_color = "#eff0f1"
+	item_height = 54
+	item_padding = 0
+	item_spacing = 0
+
+	selected_item_font = "Microsoft YaHei Regular 24"
+	selected_item_color= "#141012"
+	selected_item_pixmap_style = "select_*.png"
+
+	scrollbar = false
+}
+

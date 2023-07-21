@@ -7,8 +7,13 @@
 
 </div>
 
-[English](README.md)|[简体中文](README-自述文件.md)|[繁體中文](README-繁體中文.md)|...
+grub2-androidx86|grub2-androidx86|grub2-androidx86|grub2-androidx86
 --|--|--|--
+[English](README.md)|[简体中文](README-自述文件.md)|[繁體中文](README-繁體中文.md)|...
+
+grub2-androidx86-USB|grub2-androidx86-USB|grub2-androidx86-USB|grub2-androidx86-USB
+--|--|--|--
+[English](grub2-androidx86-USB/README.md)|[简体中文](grub2-androidx86-USB/README-自述文件.md)|[繁體中文](grub2-androidx86-USB/README-繁體中文.md)|...
 
 <h1 align="center">grub2-androidx86</h1>
 
