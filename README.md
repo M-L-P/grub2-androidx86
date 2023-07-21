@@ -6,6 +6,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/grub2-androidx86?style=social)](https://github.com/M-L-P/grub2-androidx86/stargazers)
 
 </div>
+
 grub2-androidx86|grub2-androidx86|grub2-androidx86|grub2-androidx86
 --|--|--|--
 [English](README.md)|[简体中文](README-自述文件.md)|[繁體中文](README-繁體中文.md)|...
