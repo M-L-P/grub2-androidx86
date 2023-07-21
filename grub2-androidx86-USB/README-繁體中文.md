@@ -81,7 +81,7 @@
 <details>
 <summary>🖱️點擊展開查看🖱️</summary>
 
-- 解壓 `grub2-androidx86-版本號.zip`；
+- 解壓 `grub2-androidx86-USB-版本號.zip`；
 - 復製文件夾 `/[#ext4#f2fs]-USB/USB-Android-x86` 到 `ext4|f2fs` 分區，適用於 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
 - 復製文件夾 `/[#ext4#f2fs]-USB/USB-BlissOS` 到 `ext4|f2fs` 分區，適用於 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
 - 復製文件夾 `/[#ext4#f2fs]-USB/USB-PrimeOS` 到 `ext4|f2fs` 分區，適用於 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；

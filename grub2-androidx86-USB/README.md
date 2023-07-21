@@ -81,7 +81,7 @@ Physical Storage|Character|Logical Storage
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
-- Unzip `grub2-androidx86-version.zip`;
+- Unzip `grub2-androidx86-USB-version.zip`;
 - Copy the folder `/[#ext4#f2fs]-USB/USB-Android-x86` into the `ext4|f2fs` partition for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
 - Copy the folder `/[#ext4#f2fs]-USB/USB-BlissOS` into the `ext4|f2fs` partition for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
 - Copy the folder `/[#ext4#f2fs]-USB/USB-PrimeOS` into the `ext4|f2fs` partition for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
