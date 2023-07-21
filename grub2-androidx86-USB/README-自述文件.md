@@ -82,9 +82,9 @@
 <summary>🖱️点击展开查看🖱️</summary>
 
 - 解压 `grub2-androidx86-版本号.zip`；
-- 复制文件夹 `/[#ext4#f2fs]/USB-Android-x86` 到 `ext4|f2fs` 分区，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
-- 复制文件夹 `/[#ext4#f2fs]/USB-BlissOS` 到 `ext4|f2fs` 分区，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
-- 复制文件夹 `/[#ext4#f2fs]/USB-PrimeOS` 到 `ext4|f2fs` 分区，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
+- 复制文件夹 `/[#ext4#f2fs]-USB/USB-Android-x86` 到 `ext4|f2fs` 分区，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
+- 复制文件夹 `/[#ext4#f2fs]-USB/USB-BlissOS` 到 `ext4|f2fs` 分区，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
+- 复制文件夹 `/[#ext4#f2fs]-USB/USB-PrimeOS` 到 `ext4|f2fs` 分区，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
 
 </details>
 
@@ -118,18 +118,18 @@
 
 - 挂载 .iso 文件；
 - 复制文件 `iso: /kernel`,
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_AOSP` ，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_BlissOS` ，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_PrimeOS` ，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_AOSP` ，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_BlissOS` ，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_PrimeOS` ，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
 - 复制文件 `iso: /initrd.img`,
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_AOSP` 和 `ext4|f2fs: /USB-Android-x86/boot` ，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_BlissOS` 和 `ext4|f2fs: /USB-BlissOS/boot` ，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
-- - 粘贴到 `/[#ESP]/EFI/androidx86-USB/boot_PrimeOS` 和 `ext4|f2fs: /USB-PrimeOS/boot` ，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_AOSP` 和 `ext4|f2fs: /USB-Android-x86/boot` ，适用于 [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_BlissOS` 和 `ext4|f2fs: /USB-BlissOS/boot` ，适用于 [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/)；
+- - 粘贴到 `/[#ESP]-USB/EFI/androidx86-USB/boot_PrimeOS` 和 `ext4|f2fs: /USB-PrimeOS/boot` ，适用于 [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/)；
 
 </details>
 
 #### 复制 EFI 文件
-- 复制文件夹 `[#ESP]/EFI/androidx86-USB` into `ESP: /EFI`；
+- 复制文件夹 `[#ESP]-USB/EFI/androidx86-USB` into `ESP: /EFI`；
 
 ## 📝FAQ❓️
 ### 安全启动

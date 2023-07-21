@@ -82,9 +82,9 @@ Physical Storage|Character|Logical Storage
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
 - Unzip `grub2-androidx86-version.zip`;
-- Copy the folder `/[#ext4#f2fs]/USB-Android-x86` into the `ext4|f2fs` partition for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- Copy the folder `/[#ext4#f2fs]/USB-BlissOS` into the `ext4|f2fs` partition for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- Copy the folder `/[#ext4#f2fs]/USB-PrimeOS` into the `ext4|f2fs` partition for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- Copy the folder `/[#ext4#f2fs]-USB/USB-Android-x86` into the `ext4|f2fs` partition for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- Copy the folder `/[#ext4#f2fs]-USB/USB-BlissOS` into the `ext4|f2fs` partition for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- Copy the folder `/[#ext4#f2fs]-USB/USB-PrimeOS` into the `ext4|f2fs` partition for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 
 </details>
 
@@ -118,18 +118,18 @@ Physical Storage|Character|Logical Storage
 
 - Mount the .iso file;
 - Copy the file `iso: /kernel`,
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_AOSP` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_AOSP` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_BlissOS` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_PrimeOS` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 - Copy the `iso: /initrd.img`,
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_AOSP` and `ext4|f2fs: /USB-Android-x86/boot` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_BlissOS` and `ext4|f2fs: /USB-BlissOS/boot` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
-- - and paste into `/[#ESP]/EFI/androidx86-USB/boot_PrimeOS` and `ext4|f2fs: /USB-PrimeOS/boot` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_AOSP` and `ext4|f2fs: /USB-Android-x86/boot` for [AOSP](https://sourceforge.net/projects/android-x86/files/Release%209.0/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_BlissOS` and `ext4|f2fs: /USB-BlissOS/boot` for [BlissOS](https://sourceforge.net/projects/blissos-dev/files/Beta/);
+- - and paste into `/[#ESP]-USB/EFI/androidx86-USB/boot_PrimeOS` and `ext4|f2fs: /USB-PrimeOS/boot` for [PrimeOS](https://sourceforge.net/projects/primeos/files/64-bit/);
 
 </details>
 
 #### Copy EFI files
-- Copy the folder `[#ESP]/EFI/androidx86-USB` into `ESP: /EFI`;
+- Copy the folder `[#ESP]-USB/EFI/androidx86-USB` into `ESP: /EFI`;
 
 ## 📝FAQ❓️
 ### Secure Boot
