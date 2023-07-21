@@ -1,14 +1,18 @@
 <div align="center">
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/grub2-androidx86-USB)](https://github.com/M-L-P/grub2-androidx86-USB/releases/latest)
-[![GitHub all releases](https://img.shields.io/github/downloads/M-L-P/grub2-androidx86-USB/total)](https://github.com/M-L-P/grub2-androidx86-USB/releases)
-[![GitHub Discussions](https://img.shields.io/github/discussions/M-L-P/grub2-androidx86-USB)](https://github.com/M-L-P/grub2-androidx86-USB/discussions)
-[![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/grub2-androidx86-USB?style=social)](https://github.com/M-L-P/grub2-androidx86-USB/stargazers)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/grub2-androidx86)](https://github.com/M-L-P/grub2-androidx86/releases/latest)
+[![GitHub all releases](https://img.shields.io/github/downloads/M-L-P/grub2-androidx86/total)](https://github.com/M-L-P/grub2-androidx86/releases)
+[![GitHub Discussions](https://img.shields.io/github/discussions/M-L-P/grub2-androidx86)](https://github.com/M-L-P/grub2-androidx86/discussions)
+[![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/grub2-androidx86?style=social)](https://github.com/M-L-P/grub2-androidx86/stargazers)
 
 </div>
 
-[English](README.md)|[简体中文](README-自述文件.md)|[繁體中文](README-繁體中文.md)|...
---|--|--|--
+Language|grub2-androidx86|grub2-androidx86-USB
+--|--|--
+English|[English](../README.md)|USB   [English](README.md)
+简体中文|[简体中文](../README-自述文件.md)|USB   [简体中文](README-自述文件.md)
+繁體中文|[繁體中文](../README-繁體中文.md)|USB   [繁體中文](README-繁體中文.md)
+...|...|USB   ...
 
 <h1 align="center">grub2-androidx86-USB</h1>
 
