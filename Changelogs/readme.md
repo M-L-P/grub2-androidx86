@@ -6,3 +6,6 @@
 - Update translations;
 - Support mouse and PS/2 trackpad;
 - Adapt for switch;
+- Add security bypass patches；
+- Add Easter Eggs;
+- ......(Haven't finished yet)
