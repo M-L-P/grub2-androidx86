@@ -1,5 +1,8 @@
 # If PrimeOS stops updating forever, I will delete the entry related to PrimeOS in this project to reduce workload and project volume, as simulating some exquisite details is too tiring.
 
+[grub2-brunch](https://github.com/M-L-P/grub2-brunch)|[grub2-fyde](https://github.com/M-L-P/grub2-fyde)|[grub2-androidx86](https://github.com/M-L-P/grub2-androidx86)
+-|-|-
+
 <div align="center">
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/grub2-androidx86)](https://github.com/M-L-P/grub2-androidx86/releases/latest)
