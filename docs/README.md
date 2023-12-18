@@ -1,4 +1,4 @@
-# If PrimeOS stops updating forever, I will delete the entry related to PrimeOS in this project to reduce workload and project volume, as simulating some exquisite details is too tiring.
+# Winter comes, and the keyboard and mouse are as cold as ice. Stop updating till spring or even summer.
 
 [grub2-brunch](https://github.com/M-L-P/grub2-brunch)|[grub2-fyde](https://github.com/M-L-P/grub2-fyde)|[grub2-androidx86](https://github.com/M-L-P/grub2-androidx86)
 -|-|-
